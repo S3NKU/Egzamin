@@ -1,20 +1,52 @@
 .baner{
     background-color: #29434E;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 70px;
+}
+.h3{
+    background-color: #546E7A;
+    color: white;
+    margin: 0px;
+}
+
+.text{
+    font-weight: bold;
+}
+.baner1{
     font-family: Verdana;
+    color: white;
+    text-align: center;
+    width: 70%;
+    height: 70px;
+}
+
+.baner2{
+    font-family: Verdana;
+    color: white;
+    text-align: center;
+    width: 30%;
+    height: 70px;
 }
 
 .polecamy1{
     display: flex;
     background-color: #B0BEC5;
-
+    height: 350px;
+    justify-content: center;
+    justify-content: space-between;
 }
 
 
 .filmyfantastyczne1{
     display: flex;
     background-color: #B0BEC5;
+    height: 350px;
+    justify-content: center;
+    justify-content: space-between;
 }
 
 .stopka{
     background-color: #29434E;
+    color: white;
 }
